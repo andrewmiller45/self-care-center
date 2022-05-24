@@ -1,0 +1,2 @@
+var affirmations = []
+var mantras = []

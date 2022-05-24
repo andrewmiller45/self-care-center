@@ -1,8 +1,26 @@
-/* font-family: 'Quicksand', sans-serif;
-COLORS
+*{font-family: 'Quicksand', sans-serif;
+}
+
+body{
+background: rgb(19,77,113);
+background: linear-gradient(180deg, rgba(19,77,113,1) 0%, rgba(120,167,198,1) 50%, rgba(247,228,191,1) 100%);
+color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* COLORS
 light-yellow - #f7e4bf;
 light-blue - #78a7c6;
 dark-blue - #134d71;
 white - #ffffff;
-black - #000000;
-*/
+black - #000000; */
