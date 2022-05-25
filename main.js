@@ -7,10 +7,10 @@ var meditationImage = document.querySelector('img')
 var advice
 
 //event listeners
-submitBtn.addEventListener('click', displayText)
+submitBtn.addEventListener('click', generateMessage)
 
 //functions
-function displayText(e){
+function generateMessage(e){
     if (!radios[0].checked && !radios[1].checked){
         e.preventDefault();
         return alert `Choose a mantra or affirmation!`
