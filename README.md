@@ -27,7 +27,7 @@
 
 ## Deployed Page
 
-Visit our published Hang In There Site! [here]()
+Visit my published Self Care Center: [here]()
 
 ## Possible Future Extensions
   - Create your own mantras to add and come back to and enjoy at a later date.  Adding local storage to save the aforementioned mantras would be cool too!
