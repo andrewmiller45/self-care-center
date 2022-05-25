@@ -7,11 +7,9 @@ var meditationImage = document.querySelector('img')
 var advice
 
 //event listeners
-
 submitBtn.addEventListener('click', displayText)
 
 //functions
-
 function displayText(e){
     if (!radios[0].checked && !radios[1].checked){
         e.preventDefault();
@@ -21,7 +19,10 @@ function displayText(e){
         advice = affirmations[getRandomIndex(affirmations)]
     } else
         advice = mantras[getRandomIndex(mantras)];
+    renderMessageView()
+}
 
+function renderMessageView(){
     meditationImage.classList.add('hidden')
     messageContainer.classList.remove('hidden')
     messageView.innerHTML = ""
