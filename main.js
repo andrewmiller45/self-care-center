@@ -12,7 +12,11 @@ submitBtn.addEventListener('click', displayText)
 
 //functions
 
-function displayText(){
+function displayText(e){
+    if (!radios[0].checked && !radios[1].checked){
+        e.preventDefault();
+        return alert `Choose a mantra or affirmation!`
+    }
     if (radios[0].checked) {
         advice = affirmations[getRandomIndex(affirmations)]
     } else
