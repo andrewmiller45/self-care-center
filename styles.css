@@ -60,11 +60,19 @@ img{
     width: 70%;
     height: 125px;
     margin: 50px;
+    opacity: 90%;
+    background-color: azure;
+    border-bottom: 2px solid goldenrod;
+    border-right: 2px solid goldenrod;
 }
 
 #selection-box{
     width: 50%;
     height: 100px;
+    opacity: 90%;
+    background-color: azure;
+    border-bottom: 2px solid goldenrod;
+    border-right: 2px solid goldenrod;
 
     text-align: center;
     padding: 5px;
