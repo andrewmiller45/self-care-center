@@ -100,7 +100,9 @@ img{
     color: white;
     opacity: 50%;
     border-radius: 15px;
-    width: auto;
+    height: 40px;
+    width: 175px;
+    font-size: 16px;
 }
 
 #receive-msg:hover{
@@ -108,5 +110,7 @@ img{
     color: white;
     opacity: 100%;
     border-radius: 15px;
-    width: auto;
+    height: 40px;
+    width: 175px;
+    font-size: 16px;
 }
