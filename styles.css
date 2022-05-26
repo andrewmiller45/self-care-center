@@ -43,7 +43,7 @@ img{
     display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	align-items: center;
 	align-content: stretch;
 }
@@ -90,6 +90,15 @@ img{
 #receive-msg{
     background-color: #134d71;
     color: white;
-    border-radius: 30px;
+    opacity: 50%;
+    border-radius: 15px;
+    width: auto;
+}
+
+#receive-msg:hover{
+    background-color: #134d71;
+    color: white;
+    opacity: 100%;
+    border-radius: 15px;
     width: auto;
 }
