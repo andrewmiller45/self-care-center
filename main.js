@@ -29,7 +29,7 @@ function renderMessageView(){
     messageView.innerHTML += 
         `<section class="message-section"><h2>${advice}</h2></section>`
 
-    setTimeout(resetState, 5000)
+    setTimeout(resetState, 3500)
 }
 
 function getRandomIndex(array) {
